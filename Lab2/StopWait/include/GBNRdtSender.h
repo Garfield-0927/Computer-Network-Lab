@@ -22,7 +22,7 @@ public:
     bool send(const Message &msg);
     void receive(const Packet &pkt);
     void timeoutHandler(int seqNum);
-    void printSlideWindow(std::fstream& file);
+    void printSlideWindow(std::fstream& file, int RcvdAckNum);
 
 public:
     GBNRdtSender();

@@ -16,8 +16,6 @@ bool SRRdtSender::getWaitingState() {
 }
 
 bool SRRdtSender::send(const Message &msg) {
-    cout << "base: " << this->baseSeqNum << " next: " << this->nextSeqNum << endl;
-
     if (this->getWaitingState()) {
         cout << "slide window is full, please wait..." << endl;
         return false;
@@ -51,12 +49,17 @@ void SRRdtSender::receive(const Packet &pkt) {
         pUtils->printPacket("[S] Sender receives corrupted pkt with wrong checksum", pkt);
         return;
     }
+
     pUtils->printPacket("[S] Sender receives correct pkt", pkt);
+
+
+    std::fstream outfile;
+    outfile.open("SRSenderOutput.txt", ios::app);
     int ackNum = pkt.acknum;
     std::vector<Packet>::iterator it;
+
     for (it = this->pkts.begin(); it != this->pkts.end(); ++it) {
         if (it->seqnum == ackNum) {
-
             this->pkts.erase(it, it + 1);
             if (ackNum == this->baseSeqNum) {
                 if (!(this->pkts.size())){
@@ -66,15 +69,13 @@ void SRRdtSender::receive(const Packet &pkt) {
                     this->baseSeqNum = it->seqnum;
                 }
             }
-
             pns->stopTimer(SENDER, ackNum);
+            printSlideWindow(outfile, pkt.acknum);
             break;
         }
     }
 
-    std::fstream outfile;
-    outfile.open("SRSenderOutput.txt", ios::app);
-    printSlideWindow(outfile, pkt.acknum);
+
     outfile.close();
 
 }
@@ -93,9 +94,7 @@ void SRRdtSender::timeoutHandler(int seqNum) {
 }
 
 void SRRdtSender::printSlideWindow(fstream& file, int rcvdAckNum) {
-    cout << "============================SPLIT LINE===========================" << endl;
     cout << "rcvdAckNum: " << rcvdAckNum << endl;
-
     cout << "baseSeqNum: " << this->baseSeqNum << endl;
     cout << "nextSeqNum: " << this->nextSeqNum << endl;
     cout << "slideWindow: [ ";
@@ -109,7 +108,6 @@ void SRRdtSender::printSlideWindow(fstream& file, int rcvdAckNum) {
     cout << "]" << endl;
     cout << "============================SPLIT LINE===========================" << endl;
 
-    file << "============================SPLIT LINE===========================" << endl;
     file << "rcvdAckNum: " << rcvdAckNum << endl;
     file << "baseSeqNum: " << this->baseSeqNum << endl;
     file << "nextSeqNum: " << this->nextSeqNum << endl;

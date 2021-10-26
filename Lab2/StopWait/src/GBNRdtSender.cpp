@@ -59,21 +59,24 @@ void GBNRdtSender::receive(const Packet &pkt) {
 
     pUtils->printPacket("正确接收确认报文", pkt);
     int ackNum = pkt.acknum;
-    for (int i = 0; i < (ackNum - this->baseSeqNum + 1 + this->seqNumSize) % this->seqNumSize; i++){
+    std::fstream outfile;
+    outfile.open("GBNOutput.txt", ios::app);
+
+    for (int i = 0; i < (ackNum - this->baseSeqNum + 1 + this->seqNumSize) % this->seqNumSize; i++) {
         this->pkts.erase(this->pkts.begin(), this->pkts.begin() + 1);
+        this->baseSeqNum = (this->baseSeqNum + 1) % this->seqNumSize;
+        printSlideWindow(outfile, ackNum);
     }
-    this->baseSeqNum = (ackNum+1) % this->seqNumSize;
+    outfile.close();
+
+//    this->baseSeqNum = (ackNum + 1) % this->seqNumSize;
     pns->stopTimer(SENDER, 0);
 
     if (this->baseSeqNum != this->nextSeqNum) {
         pns->startTimer(SENDER, Configuration::TIME_OUT, 0);
     }
 
-    std::fstream outfile;
-    outfile.open("GBNOutput.txt", ios::app);
 
-    printSlideWindow(outfile);
-    outfile.close();
 }
 
 void GBNRdtSender::timeoutHandler(int seqNum) {
@@ -87,8 +90,8 @@ void GBNRdtSender::timeoutHandler(int seqNum) {
     cout << "超时重传报文完毕" << endl;
 }
 
-void GBNRdtSender::printSlideWindow(fstream& file) {
-    cout << "============================SPLIT LINE===========================" << endl;
+void GBNRdtSender::printSlideWindow(fstream &file, int RcvdAckNum) {
+    cout << "rcvdAckNum: " << RcvdAckNum << endl;
     cout << "baseSeqNum: " << this->baseSeqNum << endl;
     cout << "nextSeqNum: " << this->nextSeqNum << endl;
     cout << "slideWindow: [ ";
@@ -102,7 +105,7 @@ void GBNRdtSender::printSlideWindow(fstream& file) {
     cout << "]" << endl;
     cout << "============================SPLIT LINE===========================" << endl;
 
-    file << "============================SPLIT LINE===========================" << endl;
+    file << "rcvdAckNum: " << RcvdAckNum << endl;
     file << "baseSeqNum: " << this->baseSeqNum << endl;
     file << "nextSeqNum: " << this->nextSeqNum << endl;
     file << "slideWindow: [ ";

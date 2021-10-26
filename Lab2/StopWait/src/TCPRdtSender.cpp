@@ -34,7 +34,19 @@ void TCPRdtSender::timeoutHandler(int seqNum) {
 }
 
 void TCPRdtSender::printSlideWindow(std::fstream &file) {
-    cout << "============================SPLIT LINE===========================" << endl;
+    file << "baseSeqNum: " << this->baseSeqNum << endl;
+    file << "nextSeqNum: " << this->nextSeqNum << endl;
+    file << "slideWindow: [ ";
+    for (int i = this->baseSeqNum;; ++i) {
+        i = i >= this->seqNumSize ? i % this->seqNumSize : i;
+        if ((i + this->seqNumSize - this->baseSeqNum) % this->seqNumSize >= this->windowSize) {
+            break;
+        }
+        file << i << " ";
+    }
+    file << "]" << endl;
+    file << "============================SPLIT LINE===========================" << endl;
+
     cout << "baseSeqNum: " << this->baseSeqNum << endl;
     cout << "nextSeqNum: " << this->nextSeqNum << endl;
     cout << "slideWindow: [ ";
@@ -107,9 +119,16 @@ void TCPRdtSender::receive(const Packet &pkt) {
         outfile.close();
     } else {
         if (this->duplicateAckNum == 3 ){
-            pns->stopTimer(SENDER, 0);
-            pUtils->printPacket("[S] Sender has received 3 duplicate ack", this->pkts[0]);
+
             if (this->pkts.size()){
+                pns->stopTimer(SENDER, 0);
+                pUtils->printPacket("[S] Sender has received 3 duplicate ack", this->pkts[0]);
+                cout << "[S] Sender has received 3 duplicate ack" << endl;
+                std::fstream outfile;
+                outfile.open("TCP3DupAck.txt", ios::app);
+                outfile << "[S] Sender has received 3 duplicate ack. Sender is going to resend the base pkt: pkt" << this->baseSeqNum<< endl;
+                printSlideWindow(outfile);
+                outfile.close();
                 pns->sendToNetworkLayer(RECEIVER, this->pkts[0]);
                 pns->startTimer(SENDER, Configuration::TIME_OUT, 0);
             }

@@ -36,7 +36,6 @@ void SRRdtReceiver::receive(const Packet &pkt) {
 
         Message msg;
 
-
         int i = 0;
         while (this->pkts[0].seqnum != -1) {
             this->baseSeqNum = (this->pkts[i].seqnum + 1) % this->seqSize;
@@ -55,21 +54,18 @@ void SRRdtReceiver::receive(const Packet &pkt) {
                     this->pkts[j - 1] = this->pkts[j];
                 }
             }
-
-            std::fstream outfile;
-            outfile.open("SRReceiverOutput.txt", ios::app);
-            printSlideWindow(outfile, pkt.seqnum);
-            outfile.close();
         }
 
-
+        std::fstream outfile;
+        outfile.open("SRReceiverOutput.txt", ios::app);
+        printSlideWindow(outfile, pkt.seqnum);
+        outfile.close();
     } else {
         if (checkSum != pkt.checksum) {
             pUtils->printPacket("[R] Receiver has incorrectly received the pkt with wrong checksum", pkt);
         } else {
             pUtils->printPacket("[R] Receiver has incorrectly received the pkt with wrong seq number", pkt);
             pUtils->printPacket("[R] Receiver is going to send ackPkt", this->lastAckPkt);
-
             this->lastAckPkt.acknum = pkt.seqnum;
             this->lastAckPkt.checksum = pUtils->calculateCheckSum(this->lastAckPkt);
             pns->sendToNetworkLayer(SENDER, lastAckPkt);
@@ -83,7 +79,6 @@ bool SRRdtReceiver::isInWindow(int seqNum) {
 }
 
 void SRRdtReceiver::printSlideWindow(std::fstream &file, int rcvdSeqNum) {
-    file << "============================SPLIT LINE===========================" << endl;
     file << "baseSeqNum: " << this->baseSeqNum << endl;
     file << "rcvdSeqNum: " << rcvdSeqNum << endl;
 
@@ -98,5 +93,21 @@ void SRRdtReceiver::printSlideWindow(std::fstream &file, int rcvdSeqNum) {
     file << "]" <<endl;
 
     file << "============================SPLIT LINE===========================" << endl;
+
+
+    cout << "baseSeqNum: " << this->baseSeqNum << endl;
+    cout << "rcvdSeqNum: " << rcvdSeqNum << endl;
+
+    cout << "slideWindow: [ ";
+    for (int i = this->baseSeqNum;; ++i) {
+        i = i >= this->seqSize ? i % this->seqSize : i;
+        if ((i + this->seqSize - this->baseSeqNum) % this->seqSize >= this->windowSize) {
+            break;
+        }
+        cout << i << " ";
+    }
+    cout << "]" <<endl;
+
+    cout << "============================SPLIT LINE===========================" << endl;
 
 }
