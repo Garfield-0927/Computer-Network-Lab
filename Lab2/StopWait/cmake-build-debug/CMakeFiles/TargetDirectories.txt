@@ -1,0 +1,3 @@
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/cmake-build-debug/CMakeFiles/stop_wait.dir
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/cmake-build-debug/CMakeFiles/rebuild_cache.dir

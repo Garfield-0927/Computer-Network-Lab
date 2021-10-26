@@ -1,0 +1,924 @@
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 5
+nextSeqNum: 1
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 5
+nextSeqNum: 5
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 5
+nextSeqNum: 1
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 5
+nextSeqNum: 1
+slideWindow: [ 5 6 7 0 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 2
+nextSeqNum: 5
+slideWindow: [ 2 3 4 5 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 2
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 4
+baseSeqNum: 1
+nextSeqNum: 5
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 3
+nextSeqNum: 5
+slideWindow: [ 3 4 5 6 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 1
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 3
+baseSeqNum: 4
+nextSeqNum: 5
+slideWindow: [ 4 5 6 7 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 5
+baseSeqNum: 6
+nextSeqNum: 1
+slideWindow: [ 6 7 0 1 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 7
+nextSeqNum: 1
+slideWindow: [ 7 0 1 2 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 7
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 6
+baseSeqNum: 0
+nextSeqNum: 1
+slideWindow: [ 0 1 2 3 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================
+============================SPLIT LINE===========================
+rcvdAckNum: 0
+baseSeqNum: 1
+nextSeqNum: 1
+slideWindow: [ 1 2 3 4 ]
+============================SPLIT LINE===========================

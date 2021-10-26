@@ -1,0 +1,4 @@
+"D:\IDEA\CLion 2020.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\garfield\study\junior\ComputerNetworking\Lab\Lab2\StopWait
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/cmake-build-debug
