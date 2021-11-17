@@ -15,6 +15,15 @@ CMakeFiles/stop_wait.dir/src/GBNRdtReceiver.cpp.obj
  D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/GBNRdtReceiver.cpp
 CMakeFiles/stop_wait.dir/src/GBNRdtSender.cpp.obj
 CMakeFiles/stop_wait.dir/src/SR.cpp.obj
+ ../include/DataStructure.h
+ ../include/Global.h
+ ../include/NetworkService.h
+ ../include/RandomEventEnum.h
+ ../include/RdtReceiver.h
+ ../include/RdtSender.h
+ ../include/SRRdtReceiver.h
+ ../include/SRRdtSender.h
+ ../include/Tool.h
  D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SR.cpp
 CMakeFiles/stop_wait.dir/src/SRRdtReceiver.cpp.obj
  ../include/DataStructure.h
@@ -40,15 +49,6 @@ CMakeFiles/stop_wait.dir/src/StopWait.cpp.obj
 CMakeFiles/stop_wait.dir/src/StopWaitRdtReceiver.cpp.obj
 CMakeFiles/stop_wait.dir/src/StopWaitRdtSender.cpp.obj
 CMakeFiles/stop_wait.dir/src/TCP.cpp.obj
- ../include/DataStructure.h
- ../include/Global.h
- ../include/NetworkService.h
- ../include/RandomEventEnum.h
- ../include/RdtReceiver.h
- ../include/RdtSender.h
- ../include/TCPRdtReceiver.h
- ../include/TCPRdtSender.h
- ../include/Tool.h
  D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/TCP.cpp
 CMakeFiles/stop_wait.dir/src/TCPRdtReceiver.cpp.obj
  ../include/DataStructure.h

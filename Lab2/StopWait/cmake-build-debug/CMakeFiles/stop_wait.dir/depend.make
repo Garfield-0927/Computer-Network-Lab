@@ -14,6 +14,15 @@ CMakeFiles/stop_wait.dir/src/GBNRdtReceiver.cpp.obj: ../include/Tool.h
 CMakeFiles/stop_wait.dir/src/GBNRdtReceiver.cpp.obj: ../src/GBNRdtReceiver.cpp
 
 
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/DataStructure.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/Global.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/NetworkService.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/RandomEventEnum.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/RdtReceiver.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/RdtSender.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/SRRdtReceiver.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/SRRdtSender.h
+CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../include/Tool.h
 CMakeFiles/stop_wait.dir/src/SR.cpp.obj: ../src/SR.cpp
 
 CMakeFiles/stop_wait.dir/src/SRRdtReceiver.cpp.obj: ../include/DataStructure.h
@@ -39,15 +48,6 @@ CMakeFiles/stop_wait.dir/src/SRRdtSender.cpp.obj: ../src/SRRdtSender.cpp
 
 
 
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/DataStructure.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/Global.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/NetworkService.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/RandomEventEnum.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/RdtReceiver.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/RdtSender.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/TCPRdtReceiver.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/TCPRdtSender.h
-CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../include/Tool.h
 CMakeFiles/stop_wait.dir/src/TCP.cpp.obj: ../src/TCP.cpp
 
 CMakeFiles/stop_wait.dir/src/TCPRdtReceiver.cpp.obj: ../include/DataStructure.h

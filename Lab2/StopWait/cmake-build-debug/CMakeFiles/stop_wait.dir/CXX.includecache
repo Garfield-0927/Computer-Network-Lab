@@ -40,21 +40,49 @@ DataStructure.h
 DataStructure.h
 ../include/DataStructure.h
 
-../include/TCPRdtSender.h
+../include/SRRdtReceiver.h
 vector
+-
+fstream
+-
+RdtReceiver.h
+../include/RdtReceiver.h
+
+../include/SRRdtSender.h
+vector
+-
+fstream
 -
 RdtSender.h
 ../include/RdtSender.h
-iostream
-../include/iostream
 
 ../include/Tool.h
 DataStructure.h
 ../include/DataStructure.h
 
-D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/TCPRdtSender.cpp
-TCPRdtSender.h
-D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/TCPRdtSender.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SR.cpp
 Global.h
 D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/Global.h
+RdtSender.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/RdtSender.h
+RdtReceiver.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/RdtReceiver.h
+SRRdtReceiver.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SRRdtReceiver.h
+SRRdtSender.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SRRdtSender.h
+
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SRRdtReceiver.cpp
+SRRdtReceiver.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SRRdtReceiver.h
+Global.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/Global.h
+
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SRRdtSender.cpp
+SRRdtSender.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/SRRdtSender.h
+Global.h
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/Global.h
+
+D:/garfield/study/junior/ComputerNetworking/Lab/Lab2/StopWait/src/TCP.cpp
 
